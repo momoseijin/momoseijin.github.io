@@ -1,86 +1,90 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="shiromiso's Portfolio" />
-        <meta name="author" content="" />
-        <title>shiromiso.me</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <!-- fontawesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-            <div class="container px-4">
-                <a class="navbar-brand" href="#page-top">shiromiso.me</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Header-->
-        <header class="bg-primary bg-gradient text-white">
-            <div class="container px-4 text-center">
-                <img src="images/shiromiso.png" alt="shiromiso">
-                <h1 class="fw-bolder">shiromiso</h1>
-                <p class="lead">a.k.a. momoseijin</p>
-            </div>
-        </header>
-        <!-- About section-->
-        <section id="about">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>About me</h2>
-                        <p class="lead">20年近く勤めていた会社を辞め、全くの異業種からIT業界に転職した変わり者</p>
-                        <p class="lead">趣味でやっていたIT知識がどこまで通用するかと思ったけど、全然いけた（笑）</p>
-                        <p class="lead">やってみるとなんとでもなるよね</p>
-                        <p class="lead">悩むより、面白いことを考えて、人生を楽しもう！！</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Services section-->
-        <section class="bg-light" id="services">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Blog</h2>
-                        <p class="lead">つらつらと自分の思ったことや好きなことを書いているブログ</p>
-                        <p class="lead"><i class="fab fa-wordpress"></i><a href="https://yuruyuru.life/" target="_blank" rel="me noopener">yuruyuru.life</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact section-->
-        <section id="contact">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Contact me</h2>
-                        <p class="lead">この辺に生息しています</p>
-                        <p class="lead"><i class="fab fa-mastodon"></i>Mastodon</br></p>
-                        <p class="lead"><a href="https://real-escape.jp/@momoseijin" target="_blank" rel="me noopener">@momoseijin@real-escape.jp</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; shiromiso.me 2024</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>shiromiso.me</title>
+<meta name="description" content="shiromiso のポートフォリオ。異業種からIT業界へ転職したエンジニア。" />
+<meta name="author" content="shiromiso" />
+<meta property="og:title" content="shiromiso.me" />
+<meta property="og:description" content="shiromiso のポートフォリオ" />
+<meta property="og:image" content="images/shiromiso.png" />
+<meta property="og:type" content="website" />
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+<link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#top">shiromiso.me</a>
+    <nav aria-label="メイン">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <img class="avatar" src="images/shiromiso.png" alt="shiromiso" width="120" height="120" />
+    <div>
+      <h1>shiromiso</h1>
+      <p class="aka">a.k.a. momoseijin</p>
+      <p class="role">異業種から転身したITエンジニア。サーバー構築や運用、ネットワーク、セキュリティに日々取り組んでいます。</p>
+    </div>
+  </section>
+
+  <section id="about" class="wrap row">
+    <h2>About</h2>
+    <div class="body">
+      <p>20年近く勤めた会社を辞めて、まったくの異業種からIT業界に転職しました。</p>
+      <p>趣味で身につけたIT知識がどこまで通用するか試してみたところ、全く問題ないどころか、スキルを教えたり、マネージメントもやっています。</p>
+      <p>やってみれば、なんとでもなるものです。</p>
+      <p>悩むより、面白いことを考えて、人生を楽しもう！！</p>
+    </div>
+  </section>
+
+  <section id="skills" class="wrap row">
+    <h2>Skills</h2>
+    <div class="body">
+      <ul class="tags">
+        <li>サーバー構築・運用</li>
+        <li>ネットワーク</li>
+        <li>セキュリティ</li>
+        <li>ホームラボ / セルフホスト</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="blog" class="wrap row">
+    <h2>Blog</h2>
+    <div class="body">
+      <p>思ったことや好きなことを書いているブログです。</p>
+      <p><a class="link" href="https://yuruyuru.life/" target="_blank" rel="me noopener">yuruyuru.life</a></p>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap row">
+    <h2>Contact</h2>
+    <div class="body">
+      <dl class="links">
+        <div><dt>Mastodon</dt><dd><a class="link" href="https://real-escape.jp/@momoseijin" target="_blank" rel="me noopener">@momoseijin@real-escape.jp</a></dd></div>
+        <div><dt>GitHub</dt><dd><a class="link" href="https://github.com/momoseijin" target="_blank" rel="me noopener">momoseijin</a></dd></div>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">&copy; <span id="year">2026</span> shiromiso.me</div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
 </html>
